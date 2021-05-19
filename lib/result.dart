@@ -9,6 +9,9 @@ class _ResultState extends State<Result> {
   @override
   Widget build(BuildContext context) {
     final Map args = ModalRoute.of(context).settings.arguments;
+    String diseaseName = args['diseaseName'];
+    double confidance = args['conf'];
+    String typeOfPlant = args['typeOfPlant'];
     return Scaffold(
       appBar: AppBar(
           automaticallyImplyLeading: false,
@@ -20,10 +23,10 @@ class _ResultState extends State<Result> {
               color: Colors.black,
             ),
           )),
-      body: Center(
-          child: Container(
-        child: Text("Your plant name is " + args['plant']),
-      )),
+      body: Container(
+        child: Text(
+            "The predicted disease is $diseaseName with the confidance score of $confidance the plant type is $typeOfPlant."),
+      ),
     );
   }
 }
