@@ -71,7 +71,6 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         child: Center(
           child: Container(
-            color: Colors.white,
             child: Column(
               children: [
                 //select the crop type

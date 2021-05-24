@@ -17,19 +17,19 @@ predict(File _image, String value, BuildContext context) async {
   String body = json.encode(data);
 
   http.Response response = await http.post(
-    "http://1553bbf5ae25.ngrok.io/predict",
+    "http://83240376d721.ngrok.io/predict",
     headers: {"Content-Type": "application/json"},
     body: body,
   );
   print(response);
   print(response.body);
   Map<String, dynamic> responseJson = json.decode(response.body);
-  print(responseJson['plant']);
+  print(responseJson['diseaseName']);
   print(responseJson['conf']);
   String diseaseName = responseJson['diseaseName'];
   double confidance = responseJson['conf'];
   //go to the another string with the data
-  Navigator.pushNamed(context, "/result", arguments: {
+  Navigator.pushReplacementNamed(context, "/result", arguments: {
     "diseaseName": diseaseName,
     "conf": confidance,
     "typeOfPlant": value,
