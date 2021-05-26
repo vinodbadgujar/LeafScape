@@ -1,4 +1,6 @@
 Map prevention(String plantType, String diseaseName) {
+  //Tomato
+
   if (plantType == "Tomato") {
     Map tomato = {
       "EarlyBlight": {
@@ -35,7 +37,11 @@ Map prevention(String plantType, String diseaseName) {
       }
     };
     return tomato[diseaseName];
-  } else if (plantType == "Apple") {
+  }
+
+  //Apple
+
+  else if (plantType == "Apple") {
     Map apple = {
       "AppleScab": {
         "symptoms": [
@@ -96,14 +102,85 @@ Map prevention(String plantType, String diseaseName) {
           "7.Safely treat most fungal and bacterial diseases with SERENADE Garden.",
           "8.This broad spectrum bio-fungicide uses a patented strain of Bacillus subtilis that is registered for organic use.",
           "9.Best of all, SERENADE is completely non-toxic to honey bees and beneficial insects.",
-          "10.Containing sulfur and pyrethrins, Bonide® Orchard Spray is a safe, one-hit concentrate for insect attacks and fungal problems. For best results, apply as a protective spray (2.5 oz/ gallon) early in the season. If disease, insects or wet weather are present, mix 5 oz in one gallon of water. Thoroughly spray all parts of the plant, especially new shoots.",
-          "11.Contact your local Agricultural Extension office for other possible solutions in your area."
+          "10.Containing sulfur and pyrethrins, Bonide® Orchard Spray is a safe, one-hit concentrate for insect attacks and fungal problems. For best results, apply as a protective spray (2.5 oz/ gallon) early in the season. If disease, insects or wet weather are present, mix 5 oz in one gallon of water. Thoroughly spray all parts of the plant, especially new shoots."
         ]
       },
     };
     return apple[diseaseName];
-  } else if (plantType == "Citrus") {
-  } else if (plantType == "Corn") {
-  } else if (plantType == "Jawar") {}
+  }
+
+  //Citrus Dictionary
+
+  else if (plantType == "Citrus") {
+    Map citrus = {
+      "BlackSpot": {
+        "symptoms": [
+          "1.The symptoms generally develop from latent infections after the leaves have died.",
+          "2.Red-brown, pin-point dots may develop into larger, circular necrotic lesions with gray centers and red or brown margins.",
+          "3.The fungus results in different types of symptoms, mainly observed on fruits.",
+          "4.Hard spot lesions are several millimeters in diameter, these spots are crater-like with a light center, a dark-brown to black rim, and often have a green halo on mature fruit.",
+          "5.False melanose shows as raised dark-brown to black specks that may coalesce on green fruits.",
+          "6.Freckle spots are orange to red, flattened, 1-3 mm in diameter and occur late in the season.",
+          "7.The spots turn brown with age.",
+          "8.Virulent spots are large, slightly sunken and spread irregularly over large areas of the mature fruit."
+        ],
+        "treatment": [
+          "1.To confirm a diagnosis of Citrus Black Spot, the pathogenic fungus must be isolated in culture.",
+          "2.This can be difficult, as culturing of the fruit lesions takes up to 14 days with an efficacy of less than 10%.",
+          "3.Diagnosis is also complicated by the morphological similarities of the fungal structures to the non-pathogenic strain Guignarida mangiferae.",
+          "4.The two species can be distinguished by molecular testing using PCR.",
+          "5.Spore monitoring through traps and rainfall and dew measurements can help to determine the timing for fungicide application.",
+          "6.A number of copper products can be used against this pathogen.",
+          "7.Post-harvest treatments with hot water or waxing of the fruits also decrease the viability of the pathogen and the manifestation of symptoms.",
+          "8.Always consider an integrated approach with preventive measures together with biological treatments if available.",
+          "9.Preharvest sprays of benzimidazole fungicides can be used preventively to delay the symptoms on fruits during transport or storage.",
+          "10.Treatments with guazatine or imazalil decrease the viability of the pathogen in black spot lesions.",
+          "11.Fungicides such as strobilurins, dithiocarbamates and benzimidazoles are also efficient against the fungus, but resistances have also developed in many areas.",
+          "12.Remove infected plant material during the season and off-season and destroy it immediately (by burning, burying in a landfill, or feeding to livestock).",
+          "13.Air flow in the citrus grove should be maximized to reduce leaf wetness."
+        ],
+      },
+      "Canker": {
+        "symptoms": [
+          "1.The bacterium grows and multiplies in diseased plant parts—all aboveground parts of the citrus tree are susceptible.",
+          "2.Citrus canker causes premature leaf and fruit drop, twig dieback, general decline, and blemished fruit.",
+          "3.Blister-like lesions on leaves and fruit start small and expand as the disease progresses.",
+          "4.These lesions may darken to tan or black and develop a water-soaked margin with a yellow halo surrounding it.",
+          "5.The center of the lesion on leaves as well as on stems and twigs can appear raised and corky or scabby, surrounded by a water-soaked margin.",
+          "6.Mature lesions on older symptomatic leaves may have a shot-hole look and these lesions eventually die and fall out."
+        ],
+        "treatment": [
+          "1.Since there is no cure for the bacterium, prevention is the best approach to managing citrus canker.",
+          "2.Exclude the pathogen from areas it is not known to exist by buying plants, budwood, and seedlings only from TDA-certified citrus nurseries.",
+          "3.Implement TDA regulations before moving citrus materials (including budwood, seedlings, and fruit) within or outside of the state.",
+          "4.Use good sanitation practices to reduce potential disease spread.",
+          "5.Practice general cleanliness and use alcohol-based sanitizers, bleach solution, and antibacterial soap solutions to decontaminate equipment and tools and reduce the risks associated with human and mechanical transmission of the disease.",
+          "6.Remove and destroy diseased plants to eliminate potential bacteria for future infections.",
+          "7.Monitor nearby citrus plants, if new infections appear, take action swiftly.",
+          "8.TDA regulations require disposal of infected tree and plant material by burning or bagging and burying it at least 2 feet deep at a municipal landfill.",
+          "9.Plant protection chemicals that contain copper can help prevent infection.",
+          "10.These products reduce risks but do not stop the disease from occurring or cure affected trees."
+        ],
+      },
+      "Greening": {
+        "symptoms": [
+          "1.Citrus greening(HLB) is distinguished by the common symptoms of yellowing of the veins and adjacent tissues; followed by splotchy mottling of the entire leaf, premature defoliation, dieback of twigs, decay of feeder rootlets and lateral roots, and decline in vigor, ultimately followed by the death of the entire plant.",
+          "2.Affected trees have stunted growth, bear multiple off-season flowers (most of which fall off), and produce small, irregularly shaped fruit with a thick, pale peel that remains green at the bottom and tastes very bitter.",
+          "3.Common symptoms can often be mistaken for nutrient deficiencies; however, the distinguishing factor between nutrient deficiencies is the pattern of symmetry.",
+          "4.Nutrient deficiencies tend to be symmetrical along the leaf vein margin, while HLB has an asymmetrical yellowing around the vein.",
+          "5.The most noticeable symptom of HLB is greening and stunting of the fruit, especially after ripening."
+        ],
+        "treatment": [
+          "1.Be aware of possible quarantine regulations in the country.",
+          "2.Monitor the citrus groove regularly for symptoms of the disease.",
+          "3.Remove affected trees immediately.",
+          "4.Maintain a thorough standard of hygiene among workers and tools involved in citrus growing.",
+          "5.Remove alternative hosts of the psyllids such as Murraya paniculata, Severinia buxifolia, and other plants in the same family as citrus (Rutaceae)."
+        ],
+      },
+    };
+    return citrus[diseaseName];
+  }
+
   return {};
 }
