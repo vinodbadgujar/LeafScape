@@ -109,9 +109,11 @@ Map prevention(String plantType, String diseaseName) {
     return apple[diseaseName];
   }
 
-  //Citrus Dictionary
+  //Citrus
 
-  else if (plantType == "Citrus") {
+  else if (plantType == "Lemon" ||
+      plantType == "SweetLemon" ||
+      plantType == "Orange") {
     Map citrus = {
       "BlackSpot": {
         "symptoms": [
@@ -180,6 +182,189 @@ Map prevention(String plantType, String diseaseName) {
       },
     };
     return citrus[diseaseName];
+  }
+
+  //Rice
+
+  else if (plantType == "Rice") {
+    Map rice = {
+      "BacterialLeafBlight": {
+        "symptoms": [
+          "1.There are two main sets of disease symptoms, leaf blight and wilt; the latter is commonly referred to as kresek.",
+          "2.Leaf blight, the more common symptom, generally occurs from the maximum tillering stage onward.",
+          "3.Symptoms begin as water-soaked lesions and stripes on leaf blades.",
+          "4.Drops of bacterial ooze may be observed on young lesions.",
+          "5.The stripes increase in length and width, become yellow , and later become whitish with wavy margins.",
+          "6.They may coalesce to cover the entire leaf blade.",
+          "7.Lesions on older infected leaves often appear grayish to white in contrast to the lighter brown lesions caused by Xanthomonas oryzae pv. oryzicola.",
+          "8.Both pathogens may infect the same plant.",
+          "9.Small, round lesions with water-soaked margins may also form on severely infected glumes.",
+          "10.Infected plants produce fewer and lighter grains, and the grain is of poor quality.",
+          "11.A third, less common symptom associated with bacterial blight is called yellow leaf or pale yellow.",
+          "12.The youngest leaf of the plant becomes uniformly pale yellow or has a broad chlorotic stripe.",
+          "13.With yellow leaf, the bacteria are not present in the leaf itself but can be found in the internodes and crowns of affected stems.",
+          "14.The wilt or kresek symptom is the most destructive manifestation of the disease.",
+          "15.It occurs in the tropics from the seedling to early tillering stages.",
+          "16.Leaves of infected plants wilt and roll up, turning grayish green.",
+          "17.The leaves then turn yellow to straw-colored and wither, and the entire plant generally dies.",
+          "18.Plants that survive are stunted and yellowish."
+        ],
+        "treatment": [
+          "1.The disease is effectively controlled with resistant cultivars.",
+          "2.Their use is dependent on monitoring the pathogenic specialization of strains of the pathogen in a given area.",
+          "3.Cultural control recommendations include avoiding excessive nitrogen fertilization, maintaining shallow water in nursery beds, providing good drainage during severe flooding, plowing under rice stubble and straw following harvest, and removing alternate hosts.",
+          "4.Seed treatment has been practiced using bleaching powder and zinc sulfate."
+        ],
+      },
+      "BrownSpot": {
+        "symptoms": [
+          "1.Brown spot is a fungal disease that infects the coleoptile, leaves, leaf sheath, panicle branches, glumes and spikelets.",
+          "2.Its most observable damage is the numerous big spots on the leaves which can kill the whole leaf.",
+          "3.When infection occurs in the seed, unfilled grains or spotted or discolored seeds are formed.",
+          "4.The disease develops largely in areas with high humidity and on crops planted in nutrient deficient soil.",
+          "5.This infection occurs when leaves remain wet for 8 to 24 hours.",
+          "6.It most often happens when the crop is planted from infected seeds or on volunteer crops, and when weeds or debris from previous crops is present."
+        ],
+        "treatment": [
+          "1.Practice good sanitation in your fields to help avoid brown leaf spot of rice and plant disease-resistant varieties.",
+          "2.You may also fertilize the crop, although this can take several growing seasons to work completely.",
+          "3.Take a soil test to learn exactly which nutrients are missing in the field.",
+          "4.Incorporate them into the soil and monitor them regularly.",
+          "5.You can soak seeds before planting to limit the fungal disease.",
+          "6.Soak in hot water 10 to 12 minutes or in cold water for eight hours overnight.",
+          "7.Treat seeds with a fungicide."
+        ],
+      },
+      "LeafSmut": {
+        "symptoms": [
+          "1.Leaf smut, caused by the fungus Entyloma oryzae, is a widely distributed, but somewhat minor, disease of rice.",
+          "2.The fungus produces slightly raised, angular, black spots (sori) on both sides of the leaves.",
+          "3.Although rare, it also can produce spots on leaf sheaths.",
+          "4.The black spots are about 0.5 to 5.0 millimeters long and 0.5 to 1.5 millimeters wide.",
+          "5.Many spots can be found on the same leaf, but the spots remain distinct from each other.",
+          "6.The epidermis breaks open when wet and releases the black spores.",
+          "7.Heavily infected leaves turn yellow, and the leaf tips die and turn gray."
+        ],
+        "treatment": [
+          "1.It can be a good idea to use good general management practices to prevent the infection or to keep it in check and to keep plants healthy overall.",
+          "2.As with many other fungal infections, this one is spread by infected plant material in the soil.",
+          "3.When healthy leaves contact the water or ground with old diseased leaves, they can become infected.",
+          "4.Cleaning up debris at the end of each growing season can prevent spread of leaf smut.",
+          "5.Keeping a good nutrient balance is also important, as high nitrogen levels increases the incidence of the disease.",
+          "6.Finally, if leaf smut has been a problem in your growing area, consider using rice varieties with some resistance."
+        ],
+      },
+    };
+    return rice[diseaseName];
+  }
+
+  //Beans
+
+  else if (plantType == "BlackEyedBeans" ||
+      plantType == "ClusterBeans" ||
+      plantType == "MungBeans") {
+    Map beans = {
+      "AngularLeafSpot": {
+        "symptoms": [
+          "1.Angular leaf spot lesions are most characteristic on leaves, and appear as gray or brown irregular spots that may be bordered by a chlorotic halo.",
+          "2.Lesions become necrotic and assume the angular shape characteristic of the disease.",
+          "3.Black synnemata and conidia are produced in lesions on the lower surface of leaves (and other infected plant parts)."
+        ],
+        "treatment": [
+          "1.Before planting make sure that the seed is certified free of the fungus.",
+          "2.After harvesting collect and burn or bury as much of the crop as possible after harvest.",
+          "3.Do not plant one crop of bean after another in the same land; use a rotation of at least 2-years.",
+          "4.There are resistant bean and cowpea resistant varieties, however, in some varieties resistance to spots on the leaves and spots on the fruit may differ.",
+          "5.Treat seed with carbendazim.",
+          "6.If fungicides are needed for control of leaf or pod spots, use a copper product or mancozeb."
+        ],
+      },
+      "BeanRust": {
+        "symptoms": [
+          "1.The symptoms are rust-coloured spots within yellowed areas.",
+          "2.The spots first appear as small brown dots containing a brown powder, which are spores of the disease.",
+          "3.Later, spots become larger and spores turn black.",
+          "4.The disease can cause leaves to fall off, and pods getting deep dark pits."
+        ],
+        "treatment": [
+          "1.Use clean bean seeds originating from non-diseased plants or from certified seed dealers, using clean seeds prevents spreading of rust disease.",
+          "2.Plant varieties such as Kabanima, Uyole 98, Ilomba, Lyamungu 90 or Selian 97, that are resistant or tolerant to the disease.",
+          "3.Pick affected leaves as soon as symptoms are seen to reduce disease spread, do not openly carry leaves around, as this spreads the disease.",
+          "4.Do not walk through your field during wet weather to prevent the spread of the disease from one plant to another.",
+          "5.Remove the crop remains from the field and bury them to reduce the spread and the over-season survival of the disease.",
+          "6.Deep plough to about 45cm to encourage rotting of the plant remains and reduce the amount of fungal disease carried over to the next bean season.",
+          "7.Plant beans towards the end of the rainy season and not at the beginning, because bean rust requires cool wet conditions for mass infections.",
+          "8.Fungicides are most effective when used preventively or in the very early stages of the disease.",
+          "9.You may use products containing mancozeb which is less toxic than other products (WHO toxicity class U: unlikely hazard).",
+          "10.You may use copper oxychloride, or tebuconazol, but these fungicides are toxic to you and consumers (class II: moderately hazardous).",
+          "11.Spray maximally twice per season, and stop spraying 35 days before harvest.",
+          "12.Nobody should enter sprayed fields during 3 days.",
+          "13.If disease symptoms are found on most of the bean plants, spraying is too late.",
+        ],
+      },
+    };
+    return beans[diseaseName];
+  }
+
+  //Grapes
+
+  else if (plantType == "Grape") {
+    Map grape = {
+      "BlackRot": {
+        "symptoms": [
+          "1.Reddish brown and circular to angular spots appear on the upper surface of the leaves starting in late spring.",
+          "2.As spots merge, they form irregular, reddish brown blotches.",
+          "3.The number of spots or lesions per leaf varies from 2 to more than 100 depending on the severity of the disease.",
+          "4.The center of the leaf spot turns tannish brown and is surrounded by a black margin.",
+          "5.Black, speck-sized fruiting bodies (pycnidia) are arranged in a definite ring just inside the margin of the lesion.",
+          "6.Only young, rapidly growing leaves are affected."
+        ],
+        "treatment": [
+          "1.Space vines properly and choose a planting site where the vines will be exposed to full sun and good air circulation Sanitation.",
+          "2.Keep the fruit planting and surrounding areas free of weeds and tall grass.",
+          "3.Prune the vines in early winter during dormancy.",
+          "4.Select only a few strong, healthy canes from the previous year’s growth to produce the following season’s crop.",
+          "5.Remove these prunings from the vineyard and burn or destroy.",
+          "6.Cultivate the vineyard before budbreak to bury the mummified berries.",
+          "7.Diseased berries covered with soil do not produce spores that will reach the developing vines.",
+          "8.Use protective fungicide sprays.",
+          "9.Pesticides registered to protect the developing new growth include copper, captan, ferbam, mancozeb, maneb, triadimefon, and ziram."
+        ],
+      },
+      "Esca": {
+        "symptoms": [
+          "1.Esca appear as dark red (for red cultivars) or yellow (on white cultivars) stripes on leaves, which eventually dry and become necrotic.",
+          "2.The main symptom is an interveinal striping on the leaves, which is characterized by the discoloration and drying of the tissues around the main veins.",
+          "3.When the disease progresses it causes a dieback of the entire grapevine.",
+          "4.Symptomatic leaves can dry completely and drop prematurely.",
+          "5.On berries, small, round, dark spots, often bordered by a brown-purple ring, may occur."
+        ],
+        "treatment": [
+          "1.Soak dormant cuttings for 30 mins in hot water at about 50°C, this treatment has to be carried out within 24 hours of pruning and again 2 weeks after.",
+          "2.Preventive practices are the most effective management approach for all trunk diseases.",
+          "3.Immediately before grafting, vines can be deeped into specialized waxes containing plant growth regulators or fungicide-impregnated formulations.",
+          "4.This encourages graft union callus development while inhibiting fungal contamination.",
+          "5.Use alternative pruning methods such as delayed pruning or double pruning.",
+          "6.Avoid pruning during periods of heavy rainfall when spores are likely to be dispersed.",
+          "7.Monitor the vineyard in Spring, and look for dead spurs or for stunted shoots.",
+          "8.Later in summer, cut off cankered portions of the vine.",
+          "9.Remove diseased debris from the vineyard and destroy them.",
+          "10.Delay fruiting for several years until vines have balanced root and shoot growth."
+        ],
+      },
+      "LeafBlight": {
+        "symptoms": [
+          "1.On leaf surface we will see lesions which are irregularly shaped (2 to 25 mm in diameter).",
+          "2.Initially lesions are dull red to brown in color turn black later, if disease is severe this lesions may coalesce.",
+          "3.On berries we can see symptom similar to black rot but the entire clusters will collapse."
+        ],
+        "treatment": [
+          "1.Fungicides sprayed for other diseases in the season may help to reduce this disease.",
+          "2.Spraying of Propiconazole (Tilt) @ 0.1% or Difenconazole (Score) @ 0.1% should be done at an interval of 15 days, starting from the initiation of the disease."
+        ],
+      },
+    };
+    return grape[diseaseName];
   }
 
   return {};
