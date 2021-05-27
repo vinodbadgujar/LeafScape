@@ -1,42 +1,69 @@
 Map prevention(String plantType, String diseaseName) {
-  //Tomato
+  //Potato
 
-  if (plantType == "Tomato") {
-    Map tomato = {
+  if (plantType == "Potato") {
+    Map potato = {
       "EarlyBlight": {
         "symptoms": [
-          "1.This disease is caused by the fungi Alternaria linariae and a solani and is first observed on the plants as small, brown lesions mostly on the older foliage.",
-          "2.Spots enlarge and concentric rings in a bull’s-eye pattern may be seen in the center of the diseased area.",
-          "3.Tissue surrounding the spots may turn yellow.",
-          "4.If high temperature and humidity occur at this time, much of the foliage is killed.",
-          "5.Lesions on the stems are similar to those on leaves and sometimes girdle the plant if they occur near the soil line (collar rot).",
-          "6.On the fruits, lesions attain considerable size, usually involving nearly the entire fruit. Concentric rings are also present on the fruit. Infected fruit frequently drops.",
-          "7.The fungus survives on infected debris in the soil, on seed, on volunteer tomato plants and other solanaceous hosts, such as Irish potato, eggplant, and black nightshade."
+          "1.In most production areas, early blight occurs annually to some degree.",
+          "2.The severity of early blight is dependent upon the frequency of foliar wetness from rain, dew, or irrigation; the nutritional status of the foliage; and cultivar susceptibility.",
+          "3.The disease first develops on mature and senescing foliage, and early maturing cultivars are the most susceptible.",
+          "4.The first symptoms of early blight appear as small, circular or irregular, dark-brown to black spots on the older (lower) leaves.",
+          "5.These spots enlarge up to 3/8 inch in diameter and gradually may become angular-shaped.",
+          "6.Initial lesions on young, fully expanded leaves may be confused with brown spot lesions.",
+          "7.These first lesions appear about two to three days after infection, with further sporulation on the surface of these lesions occurring three to five days later.",
+          "8.Early blight lesions can be diagnosed in the field easily due to the dark concentric rings alternating with bands of light-tan tissue, giving them a distinctive target spot appearance."
         ],
-        "tratment": [
-          "1.Tomatoes that have early blight require immediate attention before the disease takes over the plants.",
-          "2.Thoroughly spray the plant (bottoms of leaves also) with Bonide Liquid Copper Fungicide concentrate or Bonide Tomato & Vegetable.",
-          "3.Both of these treatments are organic. If possible time applications so that 12 hours of dry weather follows applications.",
-          "4.A day after treatment, remove the lower branches with sharp razor blade knife, Clean your knife with rubbing alcohol before trimming the next plant to prevent the spread of the disease.",
-          "5.Repeat fungicide treatments every 7 to 14 days.",
-          "6.Water your plants the day before spraying, hydration is important."
-        ]
+        "treatment": [
+          "1.Prune or stake plants to improve air circulation and reduce fungal problems.",
+          "2.Make sure to disinfect your pruning shears (one part bleach to 4 parts water) after each cut.",
+          "3.Keep the soil under plants clean and free of garden debris.",
+          "4.Add a layer of organic compost to prevent the spores from splashing back up onto vegetation.",
+          "5.Drip irrigation and soaker hoses can be used to help keep the foliage dry.",
+          "6.For best control, apply copper-based fungicides early, two weeks before disease normally appears or when weather forecasts predict a long period of wet weather.",
+          "7.Alternatively, begin treatment when disease first appears, and repeat every 7-10 days for as long as needed.",
+          "8.Containing copper and pyrethrins, Bonide Garden Dust is a safe, one-step control for many insect attacks and fungal problems.",
+          "9.For best results, cover both the tops and undersides of leaves with a thin uniform film or dust.",
+          "10.Depending on foliage density, 10 oz will cover 625 sq ft. Repeat applications every 7-10 days, as needed.",
+          "11.Serenade Garden is a broad spectrum, preventative bio-fungicide recommended for the control or suppression of many important plant diseases.",
+          "12.For best results, treat prior to foliar disease development or at the first sign of infection.",
+          "13.Repeat at 7-day intervals or as needed.",
+          "14.Remove and destroy all garden debris after harvest and practice crop rotation the following year.",
+          "15.Burn or bag infected plant parts.",
+          "16.Do NOT compost."
+        ],
       },
       "LateBlight": {
         "symptoms": [
-          "1.Leaves have large, dark brown blotches with a green gray edge; not confined by major leaf veins.",
-          "2.Infections progress through leaflets and petioles, resulting in large sections of dry brown foliage.",
-          "3.Stem infections are firm and dark brown with a rounded edge.",
-          "4.Firm, dark brown, circular spots grow to cover large parts of fruits spots may become mushy as secondary bacteria invade.",
-          "5.In high humidity, thin powdery white fungal growth appears on infected leaves, fruit and stems.",
-          "6.Infected fruit have a dry brown rot.",
-          "7.Tomato fruit with firm, dark brown, circular spots covering large parts of fruits white powdery spots in the middle.",
-          "8.In cool, wet weather, entire fields turn brown and wilted as if hit by frost."
+          "1.Late blight will first appear as water-soaked spots, usually at the tips or edges of lower leaves where water or dew tends to collect.",
+          "2.Under moist, cool conditions, water-soaked spots rapidly enlarge and a broad yellow halo may be seen surrounding the lesion",
+          "3.On the leaf underside, a spore-producing zone of white moldy growth approximately 0.1 - 0.2 inches wide may appear at the border of the lesion.",
+          "4.Under continuously wet conditions, the disease progresses rapidly and warm, dry weather will slow or stop disease development.",
+          "5.As conditions become moist and cool, disease development resumes. See pictures of late blight on stem and leaves.",
+          "6.Tuber lesions first appear as irregular, dark blotches.",
+          "7.When cut open, affected tissue is water-soaked, reddish brown and extends with an irregular margin into the tuber flesh.",
+          "8.Lesions may start as a superficial decay that continues to develop after tubers are harvested and placed into storage.",
+          "9.Older lesions may become firm and sunken due to water loss and tubers will appear shrivelled.",
+          "10.Infected tubers are commonly invaded by secondary decay organisms such as soft-rot bacteria and, therefore, are quite likely to decay during storage."
         ],
-        "treatment": []
-      }
+        "treatment": [
+          "1.Plant resistant cultivars when available.",
+          "2.Remove volunteers from the garden prior to planting and space plants far enough apart to allow for plenty of air circulation.",
+          "3.Water in the early morning hours, or use soaker hoses, to give plants time to dry out during the day avoid overhead irrigation.",
+          "4.Destroy all potato debris after harvest.",
+          "5.Eliminate potato cull piles and all other sources of living tubers and eliminate volunteer potatoes from last season.",
+          "6.Be aware of the relative susceptibility to late blight of the potato varieties that you are planting.",
+          "7.Russet Burbank and Snowden are moderately susceptible; Atlantic, Monona, Norchip, Red Norland, Russet Norkotah, and Yukon Gold are very susceptible.",
+          "8.Plant certified seed and be aware of the late blight situation in the field from which it was harvested.",
+          "9.Minimize handling of seed tubers; if seed is cut, immediately treat with a mancozeb-containing fungicide.",
+          "10.Hill potatoes to ensure that young tubers are adequately covered by soil.",
+          "11.Fertilize and irrigate optimally for the variety.",
+          "12.Apply the first foliar fungicide treatment when recommended by disease forecasting models, confirmed sightings of disease or weather patterns favorable for carrying late blight from other areas."
+        ],
+      },
     };
-    return tomato[diseaseName];
+
+    return potato[diseaseName];
   }
 
   //Apple
@@ -365,6 +392,94 @@ Map prevention(String plantType, String diseaseName) {
       },
     };
     return grape[diseaseName];
+  }
+
+  //Grass
+
+  else if (plantType == "Corn" || plantType == "Jawar") {
+    Map grass = {
+      "GrayLeafSpot": {
+        "symptoms": [
+          "1.Gray leaf spot lesions begin as small necrotic pinpoints with chlorotic halos, these are more visible when leaves are backlit.",
+          "2.Coloration of initial lesions can range from tan to brown before sporulation begins.",
+          "3.Because early lesions are ambiguous, they are easily confused with other foliar diseases such as anthracnose leaf blight, eyespot, or common rust.",
+          "4.As infection progresses, lesions begin to take on a more distinct shape.",
+          "5.Lesion expansion is limited by parallel leaf veins, resulting in the blocky shaped spots.",
+          "6.As sporulation commences, the lesions take on a more gray coloration.",
+          "7.Entire leaves can be killed when weather conditions are favorable, and rapid disease progression causes lesions to merge."
+        ],
+        "treatment": [
+          "1.Always consider an integrated approach with preventive measures and biological treatments if available.",
+          "2.Foliar fungicide treatment is a way to manage the disease if it occurs at early stages but it has to be weighted against the weather conditions, the potential yield loss and the susceptibility of the plant.",
+          "3.Fungicides containing pyraclostrobin and strobilurin, or combinations of azoxystrobin and propiconazole, prothioconazole and trifloxystrobin work well to control the fungus.",
+          "4.During the growing season, foliar fungicides can be used to manage gray leaf spot outbreaks.",
+          "5.Farmers must consider the cost of the application and market value of their plants before determining if fungicides will be an economical solution to GLS.",
+          "6.When selecting a fungicide, it is important to keep in mind the efficiency of the available products."
+        ],
+      },
+      "CommonRust": {
+        "symptoms": [
+          "1.At first, symptoms of rust fungus show as tiny, yellow, pin prick spots on leaves.",
+          "2.Seven days after these symptoms appear, they develop into reddish-brown pustules that are formed on the upper and lower surface of the leaf.",
+          "3.The pustules then rupture and the small, cinnamon colored spores are revealed.",
+          "4.The pustules may be circular or elongated and can be found in bands or patches.",
+          "5.Young leaves are more susceptible than mature leaves to common rust on sweet plants.",
+          "6.Early symptoms of common rust are chlorotic flecks on the leaf surface.",
+          "7.These soon develop into powdery, brick-red pustules as the spores break through the leaf surface.",
+          "8.Pustules are oval or elongated, about 1/8 inch long, and scattered sparsely or clustered together.",
+          "9.The leaf tissue around the pustules may become yellow or die, leaving lesions of dead tissue.",
+          "10.The lesions sometimes form a band across the leaf and entire leaves will die if severely infected.",
+          "11.As the pustules age, the red spores turn black, so the pustules appear black, and continue to erupt through the leaf surface.",
+          "12.Husks, leaf sheaths, and stalks also may be infected."
+        ],
+        "treatment": [
+          "1.To reduce the incidence of rust, plant only varieties that has resistance to the fungus.",
+          "2.Resistance is either in the form of race-specific resistance or partial rust resistance.",
+          "3.If the plant begins to show symptoms of infection, immediately spray with a fungicide.",
+          "4.The fungicide is most effective when started at the first sign of infection.",
+          "5.In seasons where considerable rust is present on the lower leaves prior to silking and the weather is unseasonably cool and wet, an early fungicide application may be necessary for effective disease control.",
+          "6.Use disease resistant cultivars where available.",
+          "7.A partial list of resistant cultivars includes 'Xtra Tender 277', 'Snowmass', 'Cabaret', 'Delectable', 'Silverado', 'Zenith', 'Lancelot', and 'Argent'.",
+          "8.Scout for pustules beginning at whorl stage and spray when 80 % of leaves observed have one or more pustules.",
+          "9.Avoid planting near grass family fields of different maturity.",
+          "10.Avoid fields with poor air circulation."
+        ],
+      },
+      "NorthernLeafBlight": {
+        "symptoms": [
+          "1.Symptoms usually appear first on the lower leaves.",
+          "2.Leaf lesions are long (1 to 6 inches) and elliptical, gray-green at first but then turn pale gray or tan.",
+          "3.Under moist conditions, dark gray spores are produced, usually on the lower leaf surface, which give lesions a dirty gray appearance.",
+          "4.Entire leaves on severely blighted plants can die, so individual lesions are not visible.",
+          "5.Lesions may occur on the outer husk of ears, but the kernels are not infected.",
+          "6.On hybrids that contain an Ht gene for resistance to the fungus, lesions are smaller, chlorotic, and may develop into linear streaks.",
+          "7.These lesions rarely produce spores.",
+          "8.Typical symptoms of northern leaf blight are canoe-shaped lesions 1 inch to 6 inches long.",
+          "9.Lesions begin on the lower leaves and then spread to upper leaves.",
+          "10.Severe symptoms can progress rapidly, resulting in blighted leaves."
+        ],
+        "treatment": [
+          "1.Control of this disease is often focused on management and prevention.",
+          "2.First, choose varieties or hybrids that are resistant or at least have moderate resistance to northern leaf blight.",
+          "3.When you grow plants, make sure it does not stay wet for long periods of time.",
+          "4.The fungus that causes this infection needs between six and 18 hours of leaf wetness to develop.",
+          "5.Plants with enough space for airflow and water in the morning so leaves can dry throughout the day.",
+          "6.The fungus overwinters in plant material, so it is also important to manage infected plants.",
+          "7.Tilling the plants into the soil is one strategy, but with a small garden it may make more sense to just remove and destroy the affected plants.",
+          "8.Treating northern leaf blight involves using fungicides.",
+          "9.For most home gardeners this step isn’t needed, but if you have a bad infection, you may want to try this chemical treatment.",
+          "10.The infection usually begins around the time of silking, and this is when the fungicide should be applied.",
+          "11.Management of NCLB can be achieved primarily by using hybrids with resistance, but because resistance may not be complete or may fail, it is advantageous to utilize an integrated approach with different cropping practices and fungicides.",
+          "12.Scouting fields and monitoring local conditions is vital to control this disease.",
+          "13.Ways to change cropping practices to control the disease include reducing the amount of infected residue left in a field, managing weeds to improve airflow and reduce humidity, and encouraging residue decomposition with tillage.",
+          "14.The tillage will assist in breaking down crop debris and reducing existing inoculum.",
+          "15.In a system with normal tillage, a one-year rotation out of plants can be effective, but a two-year rotation may be required for a reduced-tillage system.",
+          "16.If possible, planting in low areas that receive heavy dew and fog should be avoided.",
+          "17.A combination of crop rotation for one to two years followed by tillage is recommended to prevent NCLB disease development."
+        ],
+      },
+    };
+    return grass[diseaseName];
   }
 
   return {};
