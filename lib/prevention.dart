@@ -482,5 +482,286 @@ Map prevention(String plantType, String diseaseName) {
     return grass[diseaseName];
   }
 
+  //Tomato
+
+  else if (plantType == "Tomato") {
+    Map tomato = {
+      "EarlyBlight": {
+        "symptoms": [
+          "1.This disease is caused by the fungi Alternaria linariae and A solani and is first observed on the plants as small, brown lesions mostly on the older foliage.",
+          "2.Spots enlarge and concentric rings in a bull’s-eye pattern may be seen in the center of the diseased area.",
+          "3.Tissue surrounding the spots may turn yellow, if high temperature and humidity occur at this time, much of the foliage is killed.",
+          "4.Lesions on the stems are similar to those on leaves and sometimes girdle the plant if they occur near the soil line (collar rot).",
+          "5.On the fruits, lesions attain considerable size, usually involving nearly the entire fruit.",
+          "6.Concentric rings are also present on the fruit, infected fruit frequently drops.",
+          "7.The fungus survives on infected debris in the soil, on seed, on volunteer tomato plants and other solanaceous hosts, such as Irish potato, eggplant, and black nightshade."
+        ],
+        "treatment": [
+          "1.Tomatoes that have early blight require immediate attention before the disease takes over the plants.",
+          "2.Thoroughly spray the plant (bottoms of leaves also) with Bonide Liquid Copper Fungicide concentrate or Bonide Tomato & Vegetable.",
+          "3.Both of these treatments are organic.",
+          "4.If possible, time applications so that 12 hours of dry weather follows applications.",
+          "5.A day after treatment, remove the lower branches with sharp razor blade knife.",
+          "6.Clean your knife with rubbing alcohol before trimming the next plant to prevent the spread of the disease.",
+          "7.Repeat fungicide treatments every 7 to 14 days.",
+          "8.Do not spray pesticides, fungicides, fertilizers or herbicides when it’s in the high 80’s or 90; you can damage your plants.",
+          "9.Water your plants the day before spraying, hydration is important."
+        ],
+      },
+      "LateBlight": {
+        "symptoms": [
+          "1.Leaves have large, dark brown blotches with a green gray edge; not confined by major leaf veins.",
+          "2.Infections progress through leaflets and petioles, resulting in large sections of dry brown foliage.",
+          "3.Stem infections are firm and dark brown with a rounded edge.",
+          "4.Firm, dark brown, circular spots grow to cover large parts of fruits.",
+          "5.Spots may become mushy as secondary bacteria invade.",
+          "6.In high humidity, thin powdery white fungal growth appears on infected leaves, fruit and stems.",
+          "7.Green tomato cut open.",
+          "8.Tan to grey mushy infection near stem going into the flesh of the fruit.",
+          "9.Infected fruit have a dry brown rot.",
+          "10.Tomato fruit with firm, dark brown, circular spots covering large parts of fruits.",
+          "11.White powdery spots in the middle.",
+          "12.In high humidity, powdery white spores form on infected fruit, leaves and stems.",
+          "13.In cool, wet weather, entire fields turn brown and wilted as if hit by frost."
+        ],
+        "treatment": [
+          "1.Destroy tomato cull piles before the growing season begins by burying them, spreading and incorporating them into fields, or feeding them to animals.",
+          "2.Control volunteer tomato plants, as infected plants can grow from infected tubers.",
+          "3.Seed infection is unlikely on commercially prepared tomato seed or on saved seed that has been thoroughly dried.",
+          "4.Inspect tomato transplants for late blight symptoms prior to purchase and/or planting, as tomato transplants shipped from southern regions may be infected.",
+          "5.If infection is found in only a few plants within a field, infected plants should be removed, disced-under, killed with herbicide or flame-killed to avoid spreading through the entire field.",
+          "6.Fungicides are available for management of late blight on tomatoes.",
+          "7.Growers should watch for late blight symptoms in their regular scouting, particularly with weather conditions that favor disease.",
+          "8.Fungicide applications should be made prior to infection when environmental conditions favor disease to be the most effective.",
+          "9.Fungicides specific to water molds must be used and applications repeated according to label instructions.",
+          "10.Remove volunteers from the garden prior to planting and space plants far enough apart to allow for plenty of air circulation.",
+          "11.Water in the early morning hours, or use soaker hoses, to give plants time to dry out during the day avoid overhead irrigation.",
+          "12.Destroy all tomato debris after harvest."
+        ],
+      },
+      "LeafMold": {
+        "symptoms": [
+          "1.The symptoms of this disease commonly occur on foliage, and it develops on both sides of the leaf on the adaxial and abaxial surface.",
+          "2.The older leaves are infected first and then the disease moves up towards young leaves.",
+          "3.Symptoms of tomato leaf mold appear usually with foliage, but fruit infection is rare.",
+          "4.The primary symptom appears on the upper surface of infected leaves as a small spot pale green or yellowish with indefinite margins, and on the corresponding area of the lower surface, the fungus begins to sporulate.",
+          "5.The diagnostic symptom develops on lower surface as an olive green to grayish purple and velvety appearance, which are composed of spores (conidia).",
+          "6.Continuously, the color of the infected leaf changes to yellowish brown and the leaf begins to curl and dry.",
+          "7.The leaves will drop upon reaching a premature stage, and the defoliation of the infected host will cause further infection.",
+          "8.This disease develops well in relative humidity levels above 85%, when the temperature reaches optimum level for germinating, the host will be infected by the pathogen.",
+          "9.Occasionally, this pathogen causes disease on the fruit or blossoms with various symptoms.",
+          "10.Fruits such as green and ripe one will develop dark rot on the stem.",
+          "11.The blossoms will be killed before fruits grow."
+        ],
+        "treatment": [
+          "1.The first strategy of management is the cultural practices for reducing the disease.",
+          "2.It includes adequating row and plant spacing that promote better air circulation through the canopy reducing the humidity; preventing excessive nitrogen on fertilization since nitrogen out of balance enhances foliage disease development; keeping the relative humidity below 85% (suitable on greenhouse), promote air circulation inside the greenhouse, early planting might to reduce the disease severity and seed treatment with hot water (25 minutes at 122 °F or 50 °C).",
+          "3.The second strategy of management is the sanitization control in order to reduce the primary inoculum.",
+          "4.Remove and destroy (burn) all plants debris after the harvest, scout for disease and rogue infected plants as soon as detected and steam sanitization the greenhouse between crops.",
+          "5.The most effective and widespread method of disease control is to use resistant cultivars.",
+          "6.However, only a few resistant cultivar to tomato leaf mold are known such as Caruso, Capello, Cobra (race 5), Jumbo and Dombito (races 1 and 2), moreover, this disease is not considered an important disease for breeding field tomatoes.",
+          "7.The least but not the less important management is the chemical control that ensures good control of the disease.",
+          "8.The chemical control is basically spraying fungicide as soon as the symptoms are evident.",
+          "9.Compounds registered for using are: chlorothalonil, maneb, mancozeb and copper."
+        ],
+      },
+      "SeptoriaLeafSpot": {
+        "symptoms": [
+          "1.The disease first appears on the lower leaves after the plant has set fruit.",
+          "2.Leaf spots begin as yellow areas that later become circular with gray centers and dark borders.",
+          "3.Spots may reach 1/8 inch in diameter and be surrounded by a yellow halo.",
+          "4.Tiny black specks, which are fruiting structures that release spores, develop in the center of these spots.",
+          "5.Severely infected leaves fall off.",
+          "6.Defoliation progresses from the base of the plant upwards and resembles early blight from a distance.",
+          "7.However, the larger dark lesions with concentric rings of early blight are clearly different from small, speckled lesions of Septoria leaf spot.",
+          "8.Loss of foliage may cause fruits to become sunscalded.",
+          "9.Most infection early in the season probably arises from infested plant debris remaining in the soil from a previous tomato crop.",
+          "10.Spores of the fungus are spread by splashing rain.",
+          "11.The disease is favored by moderate temperatures and extended periods of high relative humidity."
+        ],
+        "treatment": [
+          "1.Crop rotation and thorough shredding and incorporation of infested plant residue soon after harvest are recommended to reduce Septoria leaf spot.",
+          "2.Weed control should be maintained because jimsonweed, horse nettle, and nightshade are also sources of infection.",
+          "3.Drip but not sprinkler irrigation is recommended to reduce periods of leaf wetness and water splashing.",
+          "4.Avoid working plants while the foliage is wet.",
+          "5.A fungicide spray schedule for early blight is usually effective for control of Septoria leaf spot except that the spray interval should be shortened to 7-10 days.",
+          "6.If caught early, the lower infected leaves can be removed and burned or destroyed.",
+          "7.However, removing leaves above where fruit has formed will weaken the plant and expose fruit to sunscald.",
+          "8.At the end of the season, collect all foliage from infected plants and dispose of or bury.",
+          "9.Do not compost diseased plants.",
+          "10.If the plants can still be handled without breaking them, stake or cage the plants to raise them off the ground and promote faster drying of the foliage.",
+          "11.Mulching will reduce splashing soil, which may contain fungal spores associated with debris.",
+          "12.Apply mulch after the soil has warmed.",
+          "13.Use a soaker hose at the base of the plant to keep the foliage dry.",
+          "14.Nightshade and horsenettle are frequent hosts of Septoria leaf spot and should be eradicated around the garden site.",
+          "15.Apply chlorothalonil, maneb, mancozeb, or a copper-based fungicide, such as Bordeaux mixture, copper hydroxide, copper sulfate, or copper oxychloride sulfate.",
+          "16.Next year do not plant tomatoes back in the same location where diseased tomatoes grew.",
+          "17.Wait 1 to 2 years before replanting tomatoes in these areas."
+        ],
+      },
+      "SpiderMite": {
+        "symptoms": [
+          "1.Tomato red spider mite feeding causes whitening or yellowing of leaves, which then dry out and eventually fall off.",
+          "2.In the case of severe attacks, plant damage progresses very quickly, and hosts may die within 3–5 weeks, if no management actions are taken.",
+          "3.In less intense infestations the top side of leaves appear speckled, as a result of the mites sucking the contents out of individual plant cells.",
+          "4.This can reduce the growth rate of plants and can have a negative impact on plant health and crop yield.",
+          "5.When present in low numbers tomato red spider mite infestation may produce no symptoms.",
+          "6.As populations increase, plant damage should be more easily seen on leaves."
+        ],
+        "treatment": [
+          "1.Cut off and remove parts of your tomato plants that are infested.",
+          "2.Once an infestation has progressed, you may need to resort to more drastic measures.",
+          "3.If you notice specific parts of your tomato plants appear bleached or bronzed, or if the leaves have started to curl, cut those pieces off using garden shears.",
+          "4.Dispose of the infected portions of your tomato plants in the garbage or by burning them.",
+          "5.Do not put them in your compost pile or you may spread the infestation to other plants in the future.",
+          "6.Spray insecticidal soap on tomato plants to kill spider mites.",
+          "7.Purchase a commercially-made insecticidal soap at a garden centre or hardware store or make your own.",
+          "8.Spray the soap onto your tomato plants, making sure to focus the spray on the undersides of the leaves where spider mites live.",
+          "9.Reapply the soap again if you see continuing evidence of spider mites on your tomato plants.",
+          "10.Make your own insecticidal soap by combining 1 teaspoon (4.9 mL) of mild liquid soap (such as castile soap) to 1 litre (4.2  c) of lukewarm (slightly warm) water in a spray bottle.",
+          "11.Shake the spray bottle before using the soap.",
+          "12.Do not use insecticidal soap on tomato plants that are water-stressed or when the temperatures are higher than 90 °F (32 °C).",
+          "13.Apply horticultural oil to your tomato plants to eliminate spider mites, some highly refined oils are considered superior or horticultural oils.",
+          "14.Spray the oil directly onto your tomato plants, especially on the undersides of leaves.",
+          "15.The oil will essentially drown the spider mites without damaging the tomato plant.",
+          "16.Make sure you read the manufacturer’s instructions before using the oil.",
+          "17.Superior or horticultural oils are non-toxic, which means they will impact bad insects (like spider mites), but should not impact beneficial insects (like those that eat spider mites).",
+          "18.These oils are designed not to harm the plant itself if used properly."
+        ],
+      },
+    };
+    return tomato[diseaseName];
+  }
+
+  //Coffee
+
+  else if (plantType == "Coffee") {
+    Map coffee = {
+      "Miner": {
+        "symptoms": [
+          "1.Transparent areas in the leaf; larvae are present on the underside of the coffee leaf.",
+          "2.Fully-grown larvae are about 6 mm long.",
+          "3.Coffee leaves infested with miner are recognized by the presence of large, irregular, brown spots on the upper surface of the leaf.",
+          "4.Rubbing the spot, or bending the leaf across the spot, results in the separation of the upper epidermis and the exposure, in fresh mines, of small white caterpillars.",
+          "5.Mined leaves are usually shed prematurely."
+        ],
+        "treatment": [
+          "1.Plant coffee in clean ground where all tree parts, including roots have been removed.",
+          "2.Termites cannot survive as there is no dead wood on which to feed.",
+          "3.Effective pruning of dead wood on coffee trees.",
+          "4.Remove all dead wood from the coffee plantation.",
+          "5.Permetrin 60 to 80 g/L sprayed on the ground and on base of coffee trees after planting will assist.",
+          "6.The most common method to rid plants of leaf miners is to spray general pesticide on the infected plants.",
+          "7.The trick to this method of how to kill leaf miners is to spray at right time.",
+          "8.If you spray too early or too late, the pesticide will not reach the leaf miner larva and will not kill the leaf miner flies.",
+          "9.To effectively rid plants of leaf miners with pesticide, in the early spring, place a few infected leaves in a ziplock bag and check the bag daily.",
+          "10.When you see small black flies in the bag (which will be the leaf miner larva becoming adults), spray the plants daily for a week.",
+          "11.There are pesticides that are specific to killing leaf miners by actually be absorbed into the leaves of the plant.",
+          "12.These leaf miner specific sprays can be used at any time of the year.",
+          "13.Another way of naturally killing leaf miners is to use neem oil.",
+          "14.This insecticidal oil affects the leaf miner’s natural life cycle and will reduce the number of larva that become adults and thus the number of eggs that the adults will lay.",
+          "15.While neem oil is not an immediate way how to kill leaf miners, it is a natural way to treat these pests."
+        ],
+      },
+      "RedSpiderMite": {
+        "symptoms": [
+          "1.During coffeae infestation, yellowish spots appear along the midrib of tea leaves and occasionally on petioles.",
+          "2.Continued mite feeding causes the entire leaf to become bronzed, necrotic and often to fall from the plant.",
+          "3.Colonies of mites prefer the upper surface of old leaves.",
+          "4.During heavy infestation and drought, mites inhabit both surfaces of the leaf and even move to young leaves.",
+          "5.Initially, spider mite damage will appear as small yellow or brown spots on the leaves of the plant.",
+          "6.If the plant is badly infested, the plant’s health will suffer, it may develop completely yellow leaves and it may stop growing.",
+          "7.Spider mite damage may also include a telltale spider web type webbing on the plant.",
+          "8.Spider mites are arachnids and are related to spiders.",
+          "9.They produce webs in order to protect themselves and their eggs.",
+          "10.It is very difficult to see spider mites on houseplants and outdoor plants with the naked eye because they are so small, but if you suspect that your plant has spider mites, you can hold a piece of paper under the leaves of the plant and shake them gently.",
+          "11.If it is spider mites, specks will fall on the paper that looks similar to pepper."
+        ],
+        "treatment": [
+          "1.One natural spider mite remedy is to simply spray down the plant with a nozzled hose.",
+          "2.The force of the stream of water is enough to knock most of the spider mites off of the plant.",
+          "3.Another natural spider mite remedy is to release natural predators of spider mites around the plants, these can include: Ladybugs, Lacewing, Minute pirate bugs, Spider mite destroyers (actual name of insect), Predatory thrips, Predatory mites, Big-eyed bugs.",
+          "4.Another effective spider mite treatment is to use an insecticidal oil, like neem oil, a horticultural oil or a dormant oil.",
+          "5.You can also try using a miticide, as this will kill them.",
+          "6.You should not try to use a common pesticide for spider mite treatment as they are resistant to pesticides.",
+          "7.Using a pesticide will only kill off the beneficial bugs that eat spider mites, which will only make the spider mite infestation worse.",
+          "8.Spider mites on houseplants and garden plants is annoying and unsightly, but you do not have to let spider mite damage kill your plants.",
+          "9.Knowing what spider mite treatment works means that you can kill spider mites quickly and easily."
+        ],
+      },
+      "Rust": {
+        "symptoms": [
+          "1.The symptoms of coffee rust include small, yellowish, oily spots on the upper leaf surface that expand into larger round spots that turn bright orange to red and finally brown with a yellow border.",
+          "2.The rust pustules are powdery and orange-yellow on the underleaf surface, later the pustules turn black.",
+          "3.Rusted leaves drop so that affected trees are virtually denuded; such trees have significantly lower coffee yields and usually die within a few years.",
+          "4.Coffee's plague starts with yellow spots and what look like burn marks.",
+          "5.They form on the leaves of the coffee plant, causing the foliage to wither until the tree resembles a skeleton.",
+          "6.It stops bean-producing cherries from growing.",
+          "7.This is coffee rust or roya, caused by the hemileia vastatrix fungus."
+        ],
+        "treatment": [
+          "1.Coffee rust can be partially controlled by the timely application of fungicide sprays during wet seasons.",
+          "2.Plantations in some areas have been moved to higher and cooler altitudes, 1,800 to 2,100 metres (6,000 to 7,000 feet), at which the rust fungus has difficulty reproducing, though global warming is expected to further the spread of the disease into these areas.",
+          "3.There is evidence that shade-grown coffees, which are not grown as monocultures, are somewhat less susceptible, as the agroforestry practice of mixing tree crops greatly slows the spread of the disease",
+          "4.Additionally, resistant varieties of Robusta coffee (Coffea canefora) have been developed, but the beans are generally considered to be of lower quality than those of the vulnerable Arabica plants.",
+          "5.One resistant variety, Lempira, was widely planted in Honduras but lost its resistance to the disease in 2017, resulting in crop losses in that country.",
+          "6.No resistant varieties have shown to be impervious to all races of the fungus.",
+          "7.Copper-containing fungicides are very effective in controlling coffee rust, and copper has a tonic effect on coffee plants, that is, it increases yields independent of its effect in rust control.",
+          "8.One disadvantage of using copper-containing fungicides is that they must be present on the leaves before infection occurs."
+        ],
+      },
+    };
+    return coffee[diseaseName];
+  }
+
+  //AloeVera
+
+  else if (plantType == "Aloe Vera") {
+    Map aloevera = {
+      "Rot": {
+        "symptoms": [
+          "1.Symptoms of the disease include water soaking lesions, brown spots on the taproot or basal part of the stem.",
+          "2.The plants were easy to pull out when the taproot is rotten or necrotic.",
+          "3.Root rot symptoms generally include dark brown, mushy root tips and dark, mushy lower leaves.",
+          "4.Soft rot is a bacterial disease that causes water-soaked spots in aloe leaves.",
+          "5.As decay spreads through the insides of the plant, the leaves turn mushy and collapse.",
+          "6.The spots may enlarge and merge together."
+        ],
+        "treatment": [
+          "1.Disease is self limiting and requires no treatment.",
+          "2.Application of suitable fungicides.",
+          "3.Pieces of plant may be saved by taking cuttings above the rotted portion.",
+          "4.Water aloe vera plants deeply, but infrequently.",
+          "5.To ensure that you're not overwatering your plant, allow the top third of potting soil to dry out between waterings for example, if your plant is kept in 6 inches of potting soil, allow the top 2 inches to dry out before watering again."
+        ],
+      },
+      "Rust": {
+        "symptoms": [
+          "1.Caused by the fungi Phakopsora pachyfhiza and P. meibomiae, this fungal infection causes black or brown circular spots on the aloe leaves.",
+          "2.The fungus invades the outer leaf structure and oxidizes the organic compounds in the leaf structure called phenols.",
+          "3.The result is a spot that becomes blackened and hard.",
+          "4.This rust also can occur on haworthia and gasteria leaves.",
+          "5.Sustained exposure to the sun, especially during summer, can easily scorch the leaves leaving them with brown spots.",
+          "6.In some cases, leaving your aloe vera under sunlight will cause the whole leaves to turn brown."
+        ],
+        "treatment": [
+          "1.Spray a solution of one teaspoon of baking soda in one quart of water to help fight the rust.",
+          "2.Foliar fungicides may also help.",
+          "3.Sooty mold is a fungal infection that can accompany infestation by aphids or mealy bugs.",
+          "4.Isolate your aloe.",
+          "5.You should isolate any diseased plant from other plants to prevent the disease from spreading.",
+          "6.Place in a dry, less humid location.",
+          "7.A moist environment is a favorable condition for fungi to thrive.",
+          "8.Remove the infected portions.",
+          "9.Cutting off the parts where the disease is present will help reduce the probability of spreading the pathogens.",
+          "10.Do not water the foliage.",
+          "11.Watering the foliage will cause the leaves to be constantly wet.",
+          "12.This becomes favorable for pathogens to grow to make your aloe plant more susceptible to diseases."
+        ],
+      },
+    };
+    return aloevera[diseaseName];
+  }
+
   return {};
 }
