@@ -1,5 +1,5 @@
 Map prevention(String plantType, String diseaseName) {
-  //Potato
+  //Potato - check
 
   if (plantType == "Potato") {
     Map potato = {
@@ -66,7 +66,7 @@ Map prevention(String plantType, String diseaseName) {
     return potato[diseaseName];
   }
 
-  //Apple
+  //Apple - check
 
   else if (plantType == "Apple") {
     Map apple = {
@@ -136,7 +136,7 @@ Map prevention(String plantType, String diseaseName) {
     return apple[diseaseName];
   }
 
-  //Citrus
+  //Citrus - check
 
   else if (plantType == "Lemon" ||
       plantType == "SweetLemon" ||
@@ -211,7 +211,7 @@ Map prevention(String plantType, String diseaseName) {
     return citrus[diseaseName];
   }
 
-  //Rice
+  //Rice - check
 
   else if (plantType == "Rice") {
     Map rice = {
@@ -285,7 +285,7 @@ Map prevention(String plantType, String diseaseName) {
     return rice[diseaseName];
   }
 
-  //Beans
+  //Beans - check
 
   else if (plantType == "BlackEyedBeans" ||
       plantType == "ClusterBeans" ||
@@ -394,7 +394,7 @@ Map prevention(String plantType, String diseaseName) {
     return grape[diseaseName];
   }
 
-  //Grass
+  //Grass - check
 
   else if (plantType == "Corn" || plantType == "Jawar") {
     Map grass = {
@@ -633,7 +633,7 @@ Map prevention(String plantType, String diseaseName) {
     return tomato[diseaseName];
   }
 
-  //Coffee
+  //Coffee - check
 
   else if (plantType == "Coffee") {
     Map coffee = {
