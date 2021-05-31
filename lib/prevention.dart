@@ -333,7 +333,7 @@ Map prevention(String plantType, String diseaseName) {
     return beans[diseaseName];
   }
 
-  //Grapes
+  //Grapes - check
 
   else if (plantType == "Grape") {
     Map grape = {
@@ -482,7 +482,7 @@ Map prevention(String plantType, String diseaseName) {
     return grass[diseaseName];
   }
 
-  //Tomato
+  //Tomato - check
 
   else if (plantType == "Tomato") {
     Map tomato = {
@@ -714,7 +714,7 @@ Map prevention(String plantType, String diseaseName) {
     return coffee[diseaseName];
   }
 
-  //AloeVera
+  //AloeVera - check
 
   else if (plantType == "Aloe Vera") {
     Map aloevera = {
@@ -763,5 +763,14 @@ Map prevention(String plantType, String diseaseName) {
     return aloevera[diseaseName];
   }
 
-  return {};
+  //error
+  else {
+    Map error = {
+      "error": {
+        "symptoms": ["WE ARE WORKING ON IT PLEASE TRY AGAIN LETTER."],
+        "treatment": ["WE ARE SORY FOR THIS ISSUE."],
+      },
+    };
+    return error["error"];
+  }
 }
