@@ -73,7 +73,17 @@ class _ResultState extends State<Result> {
                 ),
               ),
               SizedBox(height: 15),
-              for (var item in symptoms) Text(item),
+              for (var item in symptoms)
+                SizedBox(
+                  width: double.infinity,
+                  child: Container(
+                    padding: EdgeInsets.all(5),
+                    child: Text(
+                      item,
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                ),
               SizedBox(height: 20),
               Text(
                 "Treatment",
@@ -83,7 +93,17 @@ class _ResultState extends State<Result> {
                 ),
               ),
               SizedBox(height: 15),
-              for (var item in treatment) Text(item),
+              for (var item in treatment)
+                SizedBox(
+                  width: double.infinity,
+                  child: Container(
+                    padding: EdgeInsets.all(5),
+                    child: Text(
+                      item,
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                ),
               SizedBox(height: 15),
               Center(
                 child: ButtonTheme(
