@@ -396,7 +396,7 @@ Map prevention(String plantType, String diseaseName) {
 
   //Grass - check
 
-  else if (plantType == "Corn" || plantType == "Jawar") {
+  else if (plantType == "Corn" || plantType == "Jowar") {
     Map grass = {
       "GrayLeafSpot": {
         "symptoms": [

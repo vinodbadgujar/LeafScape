@@ -11,7 +11,23 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   //the plants which we are using for diagnosis.
   String valueChoose;
-  List plants = ["Tomato", "Corn", "Apple", "Citrus", "Rice"];
+  List plants = [
+    "Apple",
+    "Tomato",
+    "Potato",
+    "Lemon",
+    "SweetLemon",
+    "Orange",
+    "Rice",
+    "BlackEyedBeans",
+    "ClusterBeans",
+    "MungBeans",
+    "Grape",
+    "Corn",
+    "Jowar",
+    "Coffee",
+    "Aloe Vera"
+  ];
   File _image;
   final picker = ImagePicker();
   // select image from gallery
