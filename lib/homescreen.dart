@@ -205,7 +205,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     minWidth: 150,
                     child: RaisedButton(
                       color: Colors.lightGreen,
-                      onPressed: () => predict(_image, valueChoose, context),
+                      onPressed: () {
+                        if (valueChoose == null || _image == null) {
+                          showAlertDialog(context);
+                        } else {
+                          predict(_image, valueChoose, context);
+                        }
+                      },
                       child: Text(
                         "Predict",
                         style: TextStyle(
@@ -223,4 +229,55 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+}
+
+showAlertDialog(BuildContext context) {
+  // Create button
+  Widget okButton = ButtonTheme(
+    height: 50,
+    minWidth: 150,
+    child: FlatButton(
+      color: Colors.lightGreen,
+      child: Text(
+        "OK",
+        style: TextStyle(
+          color: Colors.black,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+      onPressed: () {
+        Navigator.of(context).pop();
+      },
+    ),
+  );
+
+  // Create AlertDialog
+  AlertDialog alert = AlertDialog(
+    backgroundColor: Colors.lightGreen.shade200,
+    title: Text(
+      "ALERT",
+      style: TextStyle(
+        color: Colors.black,
+        fontWeight: FontWeight.bold,
+      ),
+    ),
+    content: Text(
+      "You have to select both Plant type and Leaf Image.",
+      style: TextStyle(
+        color: Colors.black,
+        fontWeight: FontWeight.bold,
+      ),
+    ),
+    actions: [
+      okButton,
+    ],
+  );
+
+  // show the dialog
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return alert;
+    },
+  );
 }
