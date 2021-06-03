@@ -139,7 +139,7 @@ Map prevention(String plantType, String diseaseName) {
   //Citrus - check
 
   else if (plantType == "Lemon" ||
-      plantType == "SweetLemon" ||
+      plantType == "Sweet Lemon" ||
       plantType == "Orange") {
     Map citrus = {
       "BlackSpot": {
@@ -287,9 +287,9 @@ Map prevention(String plantType, String diseaseName) {
 
   //Beans - check
 
-  else if (plantType == "BlackEyedBeans" ||
-      plantType == "ClusterBeans" ||
-      plantType == "MungBeans") {
+  else if (plantType == "Black Eyed Beans" ||
+      plantType == "Cluster Beans" ||
+      plantType == "Mung Beans") {
     Map beans = {
       "AngularLeafSpot": {
         "symptoms": [

@@ -40,6 +40,8 @@ class _ResultState extends State<Result> {
             ),
           )),
       body: Container(
+        height: MediaQuery.of(context).size.height,
+        width: MediaQuery.of(context).size.width,
         padding: EdgeInsets.all(10),
         decoration: BoxDecoration(
           color: Colors.lightGreen.shade200,

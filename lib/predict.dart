@@ -9,7 +9,7 @@ ProgressDialog pr;
 predict(File _image, String value, BuildContext context) async {
   pr = new ProgressDialog(context);
   pr.style(
-      message: 'Predicting...',
+      message: '  Predicting...',
       borderRadius: 8.0,
       backgroundColor: Colors.lightGreen.shade300,
       progressWidget: CircularProgressIndicator(),
@@ -36,7 +36,7 @@ predict(File _image, String value, BuildContext context) async {
   String body = json.encode(data);
 
   http.Response response = await http.post(
-    "http://6c0bad06761a.eu.ngrok.io/predict",
+    "http://f973eee2355e.ngrok.io/predict",
     headers: {"Content-Type": "application/json"},
     body: body,
   );
